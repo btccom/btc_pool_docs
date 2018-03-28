@@ -1,2 +1,2 @@
 # !/bin/bash
-git pull origin master >> /tmp/log || { echo "pull error" && exit 0 }
+cd /work/btc_pool_docs && git pull origin master >> /tmp/log
