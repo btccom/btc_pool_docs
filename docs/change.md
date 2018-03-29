@@ -18,19 +18,16 @@
 
 Return The id of the destination subaccount. If there is any error, the content is the specific error content.
 
-Automatic switching:
-
-Dest : auto
 Address can pass json string, such as {\"btc\":\"\"}
 
 ```
 {
-"puid": 123,
-"puid_name":"1234",
-"source":"btc",
-"dest":"bcc",
-"address":"3NA8hsjfdgVkmmVS9moHmkZsVCoLxUkvvv",
-"region_id": 1
+	"puid": 123,
+	"puid_name":"1234",
+	"source":"btc",
+	"dest":"bcc",
+	"address":"3NA8hsjfdgVkmmVS9moHmkZsVCoLxUkvvv",
+	"region_id": 1
 }
 ```
 
