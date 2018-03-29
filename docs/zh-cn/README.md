@@ -11,14 +11,14 @@
 其中：
 
 * Endpoint：
-    * 北方 `cn-pool.api.btc.com`
+    * 北方BTC `cn-pool.api.btc.com`
     * 北方BCH `cn-bccpool.api.btc.com`
     * 北方SBTC `cn-sbtcpool.api.btc.com`
     * 北方UBTC `cn-ubtcpool.api.btc.com`
-    * 深圳 `sz-pool.api.btc.com`
+    * 深圳BTC `sz-pool.api.btc.com`
     * 深圳BCH `sz-bccpool.api.btc.com`
-    * 欧洲 `eu-pool.api.btc.com`
-    * 美国 `us-pool.api.btc.com`
+    * 欧洲BTC `eu-pool.api.btc.com`
+    * 美国BTC `us-pool.api.btc.com`
     * 美国BCH `us-bccpool.api.btc.com`
 
 * Version： `v1`
