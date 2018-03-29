@@ -263,67 +263,6 @@ The return status is a string and the content is the specific error content
 
 ```
 
-
-## Set as default subaccount
-
-`GET /account/default/set`
-
-### Parameters
-
-| Name | Type | Description |
-|---|----|----|
-|default_puid|int| Subaccount id |
-
-### return value
-
-```
-{
-    "err_no": 0,
-    "data": {
-        "status": true
-    }
-}
-```
-or
-```
-{
-    "err_no": 2,
-    "err_msg": {
-        "msg": "Operation failed"
-    }
-}
-```
-
-## Cancel default
-
-`GET /account/default/cancle`
-
-### Parameters
-
-| Name | Type | Description |
-|---|----|----|
-|cancle_default_puid|int| Subaccount id |
-
-### return value
-
-```
-{
-    "err_no": 0,
-    "data": {
-        "status": true
-    }
-}
-```
-or
-```
-{
-    "err_no": 2,
-    "err_msg": {
-        "msg": "Operation failed"
-    }
-}
-```
-
 ## Hide Subaccounts
 
 `GET /account/hidden/set`

@@ -265,66 +265,6 @@
 ```
 
 
-## 设为默认子账户
-
-`GET /account/default/set`
-
-### 参数
-
-|名称|类型|说明|
-|---|----|----|
-|default_puid|int| 子账户id |
-
-### 返回值
-
-```
-{
-    "err_no": 0,
-    "data": {
-        "status": true
-    }
-}
-```
-或
-```
-{
-    "err_no": 2,
-    "err_msg": {
-        "msg": "操作失败"
-    }
-}
-```
-
-## 取消默认
-
-`GET /account/default/cancle`
-
-### 参数
-
-|名称|类型|说明|
-|---|----|----|
-|cancle_default_puid|int| 子账户id |
-
-### 返回值
-
-```
-{
-    "err_no": 0,
-    "data": {
-        "status": true
-    }
-}
-```
-或
-```
-{
-    "err_no": 2,
-    "err_msg": {
-        "msg": "操作失败"
-    }
-}
-```
-
 ## 隐藏子账户
 
 `GET /account/hidden/set`
