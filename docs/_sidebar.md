@@ -2,7 +2,7 @@
 * [account related](/account)
 * [User Data](/income)
 * [Mining Machine Data](/worker)
-* [Force data](/share)
+* [Hashrate data](/share)
 * [Real time Hashrate data](/realtime)
 * [Switching Hashrate](/change)
 * [Pool open](/pool)

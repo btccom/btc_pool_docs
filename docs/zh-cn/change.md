@@ -18,9 +18,8 @@
 
 返回 目的子账户的id，如有错误，内容为具体错误内容
 
-自动切换：
+目前已关闭自动切换。
 
-dest : auto
 address可传json字符串，如{\"btc\":\"\"}
 
 ```
@@ -96,8 +95,6 @@ GET /change/support-type/get?puid=66666
 
 ### 参数
 
-没有
-
 ```
 GET /pool/get-all-mode
 ```
@@ -109,7 +106,7 @@ GET /pool/get-all-mode
     "err_no": 0,
     "data": {
         "btc": "btc",
-        "bcc": "bcc"
+        "bch": "bch"
     }
 }
 ```

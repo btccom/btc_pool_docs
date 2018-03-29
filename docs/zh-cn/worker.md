@@ -13,7 +13,7 @@
 |page|int| 页码 |
 |filter|str| 页码 |
 |order_by|str| worker_id,worker_name,shares_1m,shares_5m,shares_15m,accept_count,reject_percent,last_share_time,shares_1d |
-|asc|int| 0倒叙 1正序 |
+|asc|int| 0倒序 1正序 |
 
 
 ### 返回值

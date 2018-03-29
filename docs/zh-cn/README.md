@@ -11,15 +11,21 @@
 其中：
 
 * Endpoint：
-    * 中国 `cn-pool.api.btc.com`
+    * 北方 `cn-pool.api.btc.com`
+    * 北方BCH `cn-bccpool.api.btc.com`
+    * 北方SBTC `cn-sbtcpool.api.btc.com`
+    * 北方UBTC `cn-ubtcpool.api.btc.com`
     * 深圳 `sz-pool.api.btc.com`
+    * 深圳BCH `sz-bccpool.api.btc.com`
     * 欧洲 `eu-pool.api.btc.com`
     * 美国 `us-pool.api.btc.com`
+    * 美国BCH `us-bccpool.api.btc.com`
 
 * Version： `v1`
 * Path: 具体的 API 路径，参见下文定义。
 
 ## 鉴权
+
 * 调用用户相关接口时需要在querystring提供 `access_key` 和 `puid` 鉴权。
     * AccessKey 是用户身份凭据，对应一个账户， 请用户保管好自己的AccessKey。
     * puid 是矿池子帐户id， 用来区分一个帐户下的多个子帐户。

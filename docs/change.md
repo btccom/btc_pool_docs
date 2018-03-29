@@ -1,6 +1,6 @@
 # Switch
 
-## Switching Force (Requires Login)
+## Switching Hashrate (Requires Login)
 
 `POST /change/hashrate`
 
@@ -88,8 +88,6 @@ GET /change/support-type/get?puid=66666
 ## Get all modes available for switching (no login required)
 
 ### Parameters
-
-No
 
 ```
 GET /pool/get-all-mode
