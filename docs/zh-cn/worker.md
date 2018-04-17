@@ -140,3 +140,28 @@
 }
 
 ```
+
+## 矿机更改分组或删除
+
+`POST /worker/update`
+
+### 参数
+
+{
+    "puid":88961,
+    "worker_id": "12313132313", --- 多个以逗号相隔
+    "group_id": 1,              --- 分组id   -1 代表删除
+    "access_key": "{{access_key}}"
+}
+
+### 返回值
+
+```
+{
+    "err_no": 0,
+    "data": {
+        "status": true
+    }
+}
+
+```
