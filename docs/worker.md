@@ -1,6 +1,6 @@
-# Mining machine data
+# Miner data
 
-## Get Mining Machine List
+## Get Miner List
 
 `GET /worker`
 
@@ -19,7 +19,6 @@
 ### return value
 
 ```
-
 {
     "page": "6",
     "page_size": "50",

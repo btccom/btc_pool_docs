@@ -1,4 +1,4 @@
-# BTC.com Mine Pool API Documentation
+# BTC.com Mining pool API Documentation
 
 Use the API provided by the BTC Mine Pool to obtain the mining pool operation status and user account information in real time.
 
@@ -11,10 +11,15 @@ The call path is as follows:
 among them:
 
 * Endpoint:
-    * China `cn-pool.api.btc.com`
-    * Shenzhen `sz-pool.api.btc.com`
-    * Europe `eu-pool.api.btc.com`
-    * United States `us-pool.api.btc.com`
+    * China BTC `cn-pool.api.btc.com`
+    * China BCH `cn-bccpool.api.btc.com`
+    * China SBTC `cn-sbtcpool.api.btc.com`
+    * China UBTC `cn-ubtcpool.api.btc.com`
+    * Shenzhen BTC `sz-pool.api.btc.com`
+    * Shenzhen BCH `sz-bccpool.api.btc.com`
+    * Europe BTC `eu-pool.api.btc.com`
+    * United States BTC `us-pool.api.btc.com`
+    * United States BCH `us-bccpool.api.btc.com`
 
 * Version: `v1`
 * Path: Specific API path, see definition below.

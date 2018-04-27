@@ -153,7 +153,7 @@ no
 |worker_name|str| 3 to 20, globally unique |
 |bitcoin_address|str| Legal address |
 
-Currently set up no more than 50 user sub-accounts
+currently under one account cannot set up more than 2000 subaccounts.
 The return status is a string and the content is the specific error content
 
 
@@ -263,7 +263,7 @@ The return status is a string and the content is the specific error content
 
 ```
 
-## Hide Subaccounts
+## Hide Subaccount
 
 `GET /account/hidden/set`
 
@@ -271,7 +271,7 @@ The return status is a string and the content is the specific error content
 
 | Name | Type | Description |
 |---|----|----|
-|hidden_puid|int| Sub-account id |
+|hidden_puid|int| Subaccount id |
 
 ### return value
 

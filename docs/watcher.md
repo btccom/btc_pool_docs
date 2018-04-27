@@ -33,7 +33,7 @@
 }
 ```
 
-## Sharing Observer Accounts
+## Sharing Watcher Accounts
 
 `POST /account/watcher/create`
 
@@ -66,7 +66,7 @@ or
 }
 ```
 
-## Viewing Observer Information for Others
+## Viewing Watcher Information for Others
 
 `GET /account/watcher/others-list`
 
@@ -113,7 +113,7 @@ or
 }
 ```
 
-## Delete Observer Account
+## Delete Watcher Account
 
 `POST /account/watcher/delete`
 

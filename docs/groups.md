@@ -8,14 +8,13 @@
 
 | Name | Type | Description |
 |---|----|----|
-|group_name|str|must |
+| group_name | str | must |
 
 
 
 ##### Return
 
 ```
-
 {
     "status": true
 }

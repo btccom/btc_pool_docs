@@ -1,6 +1,6 @@
 # User data
 
-## Get User Revenue Profile
+## Obtain user’s overview earnings 
 
 `GET /account/earn-stats`
 
@@ -11,7 +11,6 @@ no
 ### return value
 
 ```
-
 {
     "total_paid": "81687163", --- Total paid
     "pending_payouts": "209698", --- Late Released
@@ -33,7 +32,7 @@ no
 
 ```
 
-## Get User Revenue History Data
+## Obtain History Data of users’ earnings
 
 `GET /account/earn-history`
 
@@ -47,7 +46,6 @@ no
 ### return value
 
 ```
-
     {
         "page": "1",
         "page_size": "10",
@@ -77,8 +75,5 @@ no
             ...
         ]
     }
-
-}
-
 
 ```

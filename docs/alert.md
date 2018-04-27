@@ -159,7 +159,7 @@ or
 
 ```
 
-## Modify alarm power
+## Modify alarm hashrate
 
 `POST /alert/setting/hashrate`
 

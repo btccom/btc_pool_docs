@@ -120,33 +120,27 @@ page_size
 
 |名称|类型|说明|
 |---|----|----|
-|region|str|非必须，当指定参数时返回指定节点数据， 否则返回全部数据|
+|region_id| int |非必须，当指定参数时返回指定节点数据， 否则返回全部数据|
 
 ### 返回值
 
 
 ```
-
 {
-    {
-        "region": "CN",
-        "region_name": "China",
-        "config": [
-            "bj.pool.btc.com: 3333",
-            "bj.pool.btc.com: 443",
-            "bj.pool.btc.com: 25"
-        ]
-    },
-    {
-        "region": "US",
-        "region_name": "US",
-        "config": [
-            "us.pool.btc.com: 3333",
-            "us.pool.btc.com: 443",
-            "us.pool.btc.com: 25"
-        ]
-    }
-]
+    "err_no": 0,
+    "data": [
+        {
+            "region": "CN",
+            "region_id": 1,
+            "region_name": "Beijing(China)",
+            "config": [
+                "cn.ss.btc.com:1800",
+                "cn.ss.btc.com:443",
+                "cn.ss.btc.com:25"
+            ]
+        }
+    ]
+}
 
 ```
 

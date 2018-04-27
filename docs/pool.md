@@ -1,6 +1,6 @@
-# Mine pool data
+# Mining pool data
 
-## Get Mine Pool Explosion Data
+## Get Mining Pool Explosion Data
 
 `GET /blocks`
 
@@ -73,7 +73,7 @@ Get the historical data of mining pool computing power. The current available ti
 
 
 
-## Get Mine Pool Status
+## Get Mining Pool Status
 
 `GET /pool/status/`
 
@@ -120,7 +120,7 @@ no
 
 | Name | Type | Description |
 |---|----|----|
-|region|str| is not required. Returns the specified node data when the parameter is specified, otherwise returns all data |
+|region_id | int | is not required. Returns the specified node data when the parameter is specified, otherwise returns all data |
 
 ### return value
 
@@ -128,25 +128,20 @@ no
 ```
 
 {
-    {
-        "region": "CN",
-        "region_name": "China",
-        "config": [
-            "bj.pool.btc.com: 3333",
-            "bj.pool.btc.com: 443",
-            "bj.pool.btc.com: 25"
-        ]
-    },
-    {
-        "region": "US",
-        "region_name": "US",
-        "config": [
-            "us.pool.btc.com: 3333",
-            "us.pool.btc.com: 443",
-            "us.pool.btc.com: 25"
-        ]
-    }
-]
+    "err_no": 0,
+    "data": [
+        {
+            "region": "CN",
+            "region_id": 1,
+            "region_name": "Beijing(China)",
+            "config": [
+                "cn.ss.btc.com:1800",
+                "cn.ss.btc.com:443",
+                "cn.ss.btc.com:25"
+            ]
+        }
+    ]
+}
 
 ```
 

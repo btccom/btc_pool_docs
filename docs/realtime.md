@@ -1,6 +1,6 @@
-# Real-time computing data
+# Real-time Hashrate data
 
-## User's real-time computing power and 24-hour data
+## User's real-time Hashrate and 24-hour data
 
 `GET /realtime/hashrate`
 
