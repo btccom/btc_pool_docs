@@ -1,6 +1,6 @@
 # BTC.com Mining pool API Documentation
 
-Use the API provided by the BTC Mine Pool to obtain the mining pool operation status and user account information in real time.
+Use the API provided by the BTC Mining Pool to obtain the mining pool operation status and user account information in real time.
 
 ## API Structure
 

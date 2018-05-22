@@ -114,31 +114,43 @@
 
 ### 参数
 
+可选参数：
+
+|名称|类型|说明|
+|---|----|----|
+|puids |string| 多个以逗号相隔，可选 |
+
 
 ### 返回值
 
 ```
-
 {
-    {
-        "created_at": "2016-08-19 13:03:08",
-        "name": "111",
-        "puid": 88923,
-        "region_id": 1,
-        "region_name": "中国",
-        "updated_at": "2016-08-19 13:03:08",
-        "is_current": true
-    },
-    {
-        "created_at": "2016-08-19 13:03:37",
-        "name": "222",
-        "puid": 88924,
-        "region_id": 2,
-        region_name: "美国",
-        "updated_at": "2016-08-19 13:03:37"
-    }
+    "err_no": 0,
+    "data": [
+        {
+            "puid": 88961,
+            "region_id": 1,
+            "region_name": "Beijing(China)",
+            "name": "dubuqingfeng",
+            "default_url": "http://pool.test",
+            "is_current": 0,
+            "created_at": "2017-06-01 04:07:39",
+            "updated_at": "2017-12-08 10:11:09",
+            "change_updated_at": "2017-08-28 03:17:07"
+        },
+        {
+            "puid": 88962,
+            "region_id": 1,
+            "region_name": "Beijing(China)",
+            "name": "teestw",
+            "default_url": "http://pool.test",
+            "is_current": 1,
+            "created_at": "2017-06-06 10:16:33",
+            "updated_at": "2017-12-14 15:47:54",
+            "change_updated_at": "2017-09-11 02:37:10"
+        }
+    ]
 }
-
 ```
 
 
