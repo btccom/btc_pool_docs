@@ -9,12 +9,8 @@
 | Name | Type | Description |
 |---|----|----|
 |puid|int| Legal Subaccount id |
-|puid_name|str| Legal Subaccount Name |
 |source|str| Switch source currency |
 |dest|str| Switch destination currency |
-|address|str| Legal address |
-|region_id|int| Node ID of the source currency |
-
 
 Return The id of the destination subaccount. If there is any error, the content is the specific error content.
 
