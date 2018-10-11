@@ -5,7 +5,9 @@
 
 ### 参数
 
-无
+puid 级别
+
+puid
 
 ### 返回值
 
@@ -153,6 +155,56 @@
 }
 ```
 
+## 获取子账户包含算法的详细列表
+
+`GET /account/sub-account/algorithms/morelist`
+
+### 参数
+
+|名称|类型|说明|
+|---|----|----|
+| is_guardian | boolean | 默认 false |
+| is_hidden |boolean| 默认 false |
+| order_by | string | in：puid,name |
+
+### 返回值
+
+```
+{
+    "err_no": 0,
+    "data": {
+        "have_default": true,
+        "account": null,
+        "subaccounts": [
+            "name": "",
+            "region": "",
+            "region_text": "",
+            // 是否包含其他算法
+            "have_other_algorithms": 1,
+            "algorithms" : [
+                {
+                    // 算法名称
+                    "algorithm_name": "",
+                    // 当前币种
+                    "current_coin": "",
+                    // 根据 算法 和 地区决定。
+                    "support_coins": [],
+                    // 当前模式
+                    "current_mode": "",
+                    // 当前模式翻译
+                    "current_mode_text": "",
+                    // 该子账户开启的币种，（即不可创建地址的）
+                    "open_coin_type": [],
+                    // 币种账户
+                    "coin_accounts": [
+                    ],
+                }
+            ]
+        ]
+    }
+}
+```
+
 
 ## 创建子账户
 
@@ -165,8 +217,9 @@
 |名称|类型|说明|
 |---|----|----|
 |region_node|str| 合法节点名 |
-|worker_name|str| 3到20位,全局唯一 |
-|bitcoin_address|str| 合法地址 |
+| coin_type |str| 币种类型 |
+| worker_name | str | 3到20位,全局唯一 |
+| bitcoin_address | str | 合法地址 |
 
 当前 设定一个用户子账户不超过50个
 返回 状态为字符串，内容为具体错误内容
@@ -177,7 +230,13 @@
 ```
 
 {
-    status: true,
+    "err_no": 0,
+    "data": {
+        "status": true,
+        "puid": 257680,
+        "region_id": 1,
+        "region_base_url": "https:\/\/cn.pool.btc.com"
+    }
 }
 
 ```

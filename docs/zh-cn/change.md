@@ -9,11 +9,8 @@
 |名称|类型|说明|
 |---|----|----|
 |puid|int| 合法子账户id |
-|puid_name|str| 合法子账户名 |
 |source|str| 切换源币种 |
 |dest|str| 切换目的币种 |
-|address|str| 合法地址 |
-|region_id|int| 源币种的节点id |
 
 
 返回 目的子账户的id，如有错误，内容为具体错误内容
