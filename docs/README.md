@@ -11,15 +11,7 @@ The call path is as follows:
 among them:
 
 * Endpoint:
-    * China BTC `cn-pool.api.btc.com`
-    * China BCH `cn-bccpool.api.btc.com`
-    * China SBTC `cn-sbtcpool.api.btc.com`
-    * China UBTC `cn-ubtcpool.api.btc.com`
-    * Shenzhen BTC `sz-pool.api.btc.com`
-    * Shenzhen BCH `sz-bccpool.api.btc.com`
-    * Europe BTC `eu-pool.api.btc.com`
-    * United States BTC `us-pool.api.btc.com`
-    * United States BCH `us-bccpool.api.btc.com`
+`pool.api.btc.com`
 
 * Version: `v1`
 * Path: Specific API path, see definition below.
