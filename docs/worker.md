@@ -2,7 +2,7 @@
 
 ## Get Miner List
 
-`GET /worker`
+`GET /worker?puid={puid}&access_key={access_key}`
 
 ### Parameters
 
@@ -83,7 +83,7 @@
 
 ## Get the status of the entire mining machine
 
-`GET /worker/stats`
+`GET /worker/stats?puid={puid}&access_key={access_key}`
 
 ### Parameters
 
@@ -109,7 +109,7 @@ no
 
 ## Get the whole miner's status Contains the power data
 
-`GET /worker/full-stats`
+`GET /worker/full-stats?puid={puid}&access_key={access_key}`
 
 ### Parameters
 
