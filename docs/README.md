@@ -6,7 +6,7 @@ Use the API provided by the BTC Mining Pool to obtain the mining pool operation 
 
 The call path is as follows:
 
-`https://${Endpoint}/${Version}/${Path}`
+`https://${Endpoint}/${Version}/${Path}?puid={pubid}&access_key={access_key}`
 
 among them:
 
