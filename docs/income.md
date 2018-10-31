@@ -2,7 +2,7 @@
 
 ## Obtain user’s overview earnings 
 
-`GET /account/earn-stats`
+`GET /account/earn-stats?access_key={access_key}&puid={any valid puid}`
 
 ### Parameters
 
@@ -34,14 +34,14 @@ no
 
 ## Obtain History Data of users’ earnings
 
-`GET /account/earn-history`
+`GET /account/earn-history?access_key={access_key}&puid={any valid puid}`
 
 ### Parameters
 
 | Name | Type | Description |
 |---|----|----|
 |page|int| |
-|page_size|int| |
+|page_size|int|range: 1 to 50 |
 
 ### return value
 
