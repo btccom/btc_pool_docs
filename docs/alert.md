@@ -2,7 +2,11 @@
 
 ## Get my alarm classification information
 
-`GET /alert/get`
+`GET /alert/get?puid={puid}&access_key={access_key}` or
+
+`GET /alert/get?access_key={access_key}` or
+
+`GET /alert/get?access_key={access_key}&puid={puid}`
 
 ### Parameters
 
@@ -230,7 +234,7 @@ or
 
 ## Get my alarm contact
 
-`GET /alert/contacts/my`
+`GET /alert/contacts/my?puid={puid}&access_key={access_key}`
 
 ### Parameters
 
@@ -281,7 +285,7 @@ or
 
 ## Get an alarm contact
 
-`GET /alert/contacts/get`
+`GET /alert/contacts/get?puid={puid}&access_key={access_key}&id={id}`
 
 ### Parameters
 
