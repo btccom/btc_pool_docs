@@ -61,7 +61,7 @@ The source and dest parameters are the currencies for which the mine pool does n
 
 
 ```
-GET /change/support-type/get?puid=66666
+GET /change/support-type/get?puid={puid}&access_key={access_key}
 ```
 
 ### return value
