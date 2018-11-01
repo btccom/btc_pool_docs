@@ -18,9 +18,16 @@ among them:
 
 ## Authentication
 * Calling the user-related interface requires that the querystring provide `access_key` and `puid` authentication.
-    * AccessKey is the user identity credentials, corresponding to an account. Please keep your own AccessKey.
-    * puid is the mine pool sub-account id used to distinguish multiple sub-accounts under an account.
-* AccessKey and puid can be logged in to pool.btc.com and accessed from the subaccount management page.
+* ***AccessKey*** is the user identity credentials, corresponding to an account. ___Please keep your own AccessKey___.
+* ***puid*** is the mine pool sub-account id used to distinguish multiple sub-accounts under an account.
+* ***AccessKey*** and ***puid*** can be logged in to pool.btc.com and accessed from the subaccount management page.
+
+### Example authentication:
+* It depensds on the API call, see detailed docs. Some calls need only the access_key and others also pubid 
+* `https://${Endpoint}/${Version}/${Path}?access_key={access_key}`
+* `https://${Endpoint}/${Version}/${Path}?access_key={access_key}&puid={pubid}` (fixed pubid)
+* `https://${Endpoint}/${Version}/${Path}?access_key={access_key}&puid={pubid,pubid}` (multiple pubid's)
+
 
 ## response
 
