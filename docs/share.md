@@ -204,7 +204,7 @@ no
 
 ## Manpower data of a single miner
 
-`GET /worker/{worker_id}/share-history/?access_key={access_key}&puid={puid}`
+`GET /worker/{worker_id}/share-history?access_key={access_key}&puid={puid}`
 
   * worker_id
 
