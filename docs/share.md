@@ -2,7 +2,7 @@
 
 ## Get a list of groups
 
-`GET /worker/groups`
+`GET /worker/groups?access_key={access_key}&puid={any valid puid}`
 
 ### Parameters
 
@@ -44,7 +44,7 @@ Page_size
 
 ## Get real-time computing power
 
-`GET /worker/stats`
+`GET /worker/stats?access_key={access_key}&puid={any valid puid}`
 
 Get real-time power data. If you are considering writing a computing power monitoring system, consider using this API.
 Get current user information, including 1 minute, 5 minutes, 15 minutes, force, miners, active, non-active
@@ -70,9 +70,12 @@ no
 
 ## Get User History Data
 
-`GET /worker/share-history/`
+`GET /worker/share-history?access_key={access_key}&puid={puid}`
 
 Get historical data on user power. The current available time dimension is 1 hour and 1 day.
+
+### Example
+`GET /worker/share-history?access_key={access_key}&puid={puid}&dimension=1d&count=1&start_ts=1540983315`
 
 ### Parameters
 
@@ -97,7 +100,7 @@ Get historical data on user power. The current available time dimension is 1 hou
 
 ## Get Mining Machine List
 
-`GET /worker/`
+`GET /worker?access_key={access_key}&puid={puid}`
 
 Get a list of mining machines to which a user belongs.
 
@@ -165,7 +168,7 @@ Get a list of mining machines to which a user belongs.
 
 ## details of a single mining machine
 
-`GET /worker/{worker_id}/`
+`GET /worker/{worker_id}?access_key={access_key}&puid={puid}`
 
   * worker_id
 
@@ -201,7 +204,7 @@ no
 
 ## Manpower data of a single miner
 
-`GET /worker/{worker_id}/share-history/`
+`GET /worker/{worker_id}/share-history?access_key={access_key}&puid={puid}`
 
   * worker_id
 
