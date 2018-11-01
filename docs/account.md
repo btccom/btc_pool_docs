@@ -66,7 +66,7 @@ no
 
 ## User SMS verification code
 
-`GET /account/verify-code/{mode}`
+`GET /account/verify-code/{mode}?puid={puid}&access_key={access_key}`
 
 ### Parameters
 
@@ -169,7 +169,7 @@ The return status is a string and the content is the specific error content
 
 ## Get Sub Account List (New Sub Account)
 
-`GET /account/sub-account/morelist`
+`GET /account/sub-account/morelist?access_key={access_key}`
 
 ### Parameters
 
@@ -227,7 +227,7 @@ The return status is a string and the content is the specific error content
 
 ## Query the sub-account's daily calculation and active, all mining machines
 
-`GET /account/sub-account/hashrate-miners`
+`GET /account/sub-account/hashrate-miners?puids={puid,puid,puid}&access_key={access_key}`
 
 ### Parameters
 
@@ -265,7 +265,7 @@ The return status is a string and the content is the specific error content
 
 ## Hide Subaccount
 
-`GET /account/hidden/set`
+`GET /account/hidden/set?hidden_puid={puid}&access_key={access_key}`
 
 ### Parameters
 
@@ -296,7 +296,7 @@ or
 
 ## Recover sub accounts
 
-`GET /account/hidden/cancle`
+`GET /account/hidden/cancle?cancle_hidden_puid={puid}&access_key={access_key}`
 
 ### Parameters
 
