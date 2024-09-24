@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <title>Document</title>
-    <link rel="shortcut icon" href="/favicon.ico">
+    <link rel="shortcut icon" type="image/x-icon" href="favicon.ico" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
     <meta name="description" content="Description" />
     <meta
@@ -46,16 +46,14 @@
       src="https://www.googletagmanager.com/gtag/js?id=G-4D9ZHTEZRM"
     ></script>
     <script>
-      {
-        `
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-  console.log('gtagggg')
-
-  gtag('config', 'G-4D9ZHTEZRM');
-`;
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
       }
+      gtag("js", new Date());
+      console.log("gtagggg");
+
+      gtag("config", "G-4D9ZHTEZRM");
     </script>
   </body>
 </html>
