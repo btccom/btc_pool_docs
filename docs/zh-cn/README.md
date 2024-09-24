@@ -1,6 +1,6 @@
 # CloverPool API文档
 
-使用 BTC 矿池提供的 API，实时获取矿池运行状态及用户帐号信息。
+使用 CloverPool 矿池提供的 API，实时获取矿池运行状态及用户帐号信息。
 
 ## API 结构
 
