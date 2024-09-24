@@ -233,9 +233,9 @@ puid
     "err_no": 0,
     "data": {
         "status": true,
-        "puid": 257680,
-        "region_id": 1,
-        "region_base_url": "https:\/\/cn.pool.btc.com"
+        "puid": 835456,
+        "region_id": 59,
+        "region_base_url": "https:\/\/sg-api.connectbtc.com"
     }
 }
 
@@ -260,7 +260,7 @@ puid
             "region_id": 1,
             "region_text": "中国",
             "name": "wy001",
-            "default_url": "http://pool.dev:8080/",
+            "default_url": "http://cloverpool.com/",
             "region_name": "cn",
             "created_at": "2016-11-16 06:54:13",
             "updated_at": "2016-12-08 09:22:33",
@@ -285,7 +285,7 @@ puid
             "region_id": 1,
             "region_text": "中国",
             "name": "xxx",
-            "default_url": "http://pool.dev:8080/",
+            "default_url": "http://cloverpool.com/",
             "region_name": "cn",
             "created_at": "2016-11-16 06:55:34",
             "updated_at": "2016-12-08 09:22:08",

@@ -130,13 +130,13 @@ page_size
     "err_no": 0,
     "data": [
         {
-            "region": "CN",
-            "region_id": 1,
-            "region_name": "Beijing(China)",
+            "region": "SG_BTC",
+            "region_id": 59,
+            "region_name": "东南亚",
             "config": [
-                "cn.ss.btc.com:1800",
-                "cn.ss.btc.com:443",
-                "cn.ss.btc.com:25"
+                "sg.ss.cloverpool.com:1800",
+                "sg.ss.cloverpool.com:443",
+                "sg.ss.cloverpool.com:3333"
             ]
         }
     ]
@@ -159,25 +159,14 @@ page_size
 ```
 {
     {
-        "default_url": "https://devpool.btc.com",
-        "ping_url": "https://devpool.btc.com/node-ping-test",
-        "region_name": "cn",
-        "text": "China",
+        "default_url": "https://sg-api.connectbtc.com",
+        "ping_url": "https://sg-pool.api.cloverpool.com/node-ping-test",
+        "region_name": "sg",
+        "text": "",
         "stratum": [
-            "bj.pool.btc.com: 3333",
-            "bj.pool.btc.com: 443",
-            "bj.pool.btc.com: 25"
-        ]
-    },
-    {
-        "default_url": "https://devpool.btc.com",
-        "ping_url": "https://devpool.btc.com/node-ping-test",
-        "region_name": "us",
-        "text": "China",
-        "stratum": [
-            "bj.pool.btc.com: 3333",
-            "bj.pool.btc.com: 443",
-            "bj.pool.btc.com: 25"
+            "sg.ss.cloverpool.com:1800",
+            "sg.ss.cloverpool.com:443",
+            "sg.ss.cloverpool.com:3333"
         ]
     }
 }

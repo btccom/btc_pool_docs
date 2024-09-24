@@ -162,7 +162,13 @@ The return status is a string and the content is the specific error content
 ```
 
 {
-    Status: true,
+    "err_no": 0,
+    "data": {
+        "status": true,
+        "puid": 835456,
+        "region_id": 59,
+        "region_base_url": "https:\/\/sg-api.connectbtc.com"
+    }
 }
 
 ```
@@ -186,7 +192,7 @@ The return status is a string and the content is the specific error content
             "region_id": 1,
             "region_text": "China",
             "name": "wy001",
-            "default_url": "http://pool.dev:8080/",
+            "default_url": "http://cloverpool.com",
             "region_name": "cn",
             "created_at": "2016-11-16 06:54:13",
             "updated_at": "2016-12-08 09:22:33",
@@ -211,7 +217,7 @@ The return status is a string and the content is the specific error content
             "region_id": 1,
             "region_text": "China",
             "name": "xxx",
-            "default_url": "http://pool.dev:8080/",
+            "default_url": "http://cloverpool.com/",
             "region_name": "cn",
             "created_at": "2016-11-16 06:55:34",
             "updated_at": "2016-12-08 09:22:08",

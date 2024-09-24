@@ -1,4 +1,4 @@
-# BTC.com Mining pool API Documentation
+# CloverPool Mining pool API Documentation
 
 Use the API provided by the BTC Mining Pool to obtain the mining pool operation status and user account information in real time.
 
@@ -11,7 +11,7 @@ The call path is as follows:
 among them:
 
 * Endpoint:
-`pool.api.btc.com`
+`pool.api.cloverpool.com`
 
 * Version: `v1`
 * Path: Specific API path, see definition below.
@@ -20,7 +20,7 @@ among them:
 * Calling the user-related interface requires that the querystring provide `access_key` and `puid` authentication.
 * ***AccessKey*** is the user identity credentials, corresponding to an account. ___Please keep your own AccessKey___.
 * ***puid*** is the mine pool sub-account id used to distinguish multiple sub-accounts under an account.
-* ***AccessKey*** and ***puid*** can be logged in to pool.btc.com and accessed from the subaccount management page.
+* ***AccessKey*** and ***puid*** can be logged in to cloverpool.com and accessed from the subaccount management page.
 
 ### Example authentication:
 * It depensds on the API call, see detailed docs. Some calls need only the access_key and others also pubid 

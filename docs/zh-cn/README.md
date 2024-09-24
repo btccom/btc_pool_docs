@@ -1,4 +1,4 @@
-# BTC.com 矿池API文档
+# CloverPool API文档
 
 使用 BTC 矿池提供的 API，实时获取矿池运行状态及用户帐号信息。
 
@@ -11,7 +11,7 @@
 其中：
 
 * Endpoint：
-`pool.api.btc.com`
+`pool.api.cloverpool.com`
 
 * Version： `v1`
 * Path: 具体的 API 路径，参见下文定义。
@@ -21,7 +21,7 @@
 * 调用用户相关接口时需要在 querystring 或者是 body 提供 `access_key` 和 `puid` 鉴权。
     * AccessKey 是用户身份凭据，对应一个账户， 请用户保管好自己的AccessKey。
     * puid 是矿池子帐户id， 用来区分一个帐户下的多个子帐户。
-* AccessKey 和 puid 可以到 pool.btc.com 登录账户，在子账户管理页获取。
+* AccessKey 和 puid 可以到 cloverpool.com 登录账户，在子账户管理页获取。
 
 ## 响应
 
