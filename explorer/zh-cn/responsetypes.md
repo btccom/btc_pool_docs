@@ -69,7 +69,7 @@ Transaction {
 }
 ```
 
-由于部分交易体积很大，为提高传输效率，所有涉及到交易的接口，均支持交易信息的分级输出，如`https://chain.api.cloverpool.com/block/latest/tx?verbose=2`。
+由于部分交易体积很大，为提高传输效率，所有涉及到交易的接口，均支持交易信息的分级输出，如` https://bch-chain.api.cloverpool.com/v3/block/latest/tx?verbose=2`。
 
 `verbose`，可选，默认为2，选择输出内容等级，含义分别如下：
 

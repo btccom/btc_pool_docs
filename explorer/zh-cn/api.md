@@ -20,15 +20,15 @@ GET /block/{xxx}
 
   * 返回高度为 3 的块
 
-    <code>[https://chain.api.cloverpool.com/block/3](https://chain.api.cloverpool.com/block/3)</code>
+    <code>[ https://bch-chain.api.cloverpool.com/v3/block/3]( https://bch-chain.api.cloverpool.com/v3/block/3)</code>
 
   * 返回最新块
     
-    <code>[https://chain.api.cloverpool.com/block/latest](https://chain.api.cloverpool.com/block/latest)</code>
+    <code>[ https://bch-chain.api.cloverpool.com/v3/block/latest]( https://bch-chain.api.cloverpool.com/v3/block/latest)</code>
 
   * 返回最新块、高度为 3 的块
 
-    <code>[https://chain.api.cloverpool.com/block/latest,3](https://chain.api.cloverpool.com/block/latest,3)</code>
+    <code>[ https://bch-chain.api.cloverpool.com/v3/block/latest,3]( https://bch-chain.api.cloverpool.com/v3/block/latest,3)</code>
 
 
 ### 区块列表
@@ -43,7 +43,7 @@ GET /block/date/{ymd}
 
   * 获取2015年12月15日的区块列表
 
-    <code>[https://chain.api.cloverpool.com/block/date/20151215](https://chain.api.cloverpool.com/block/date/20151215)</code>
+    <code>[ https://bch-chain.api.cloverpool.com/v3/block/date/20151215]( https://bch-chain.api.cloverpool.com/v3/block/date/20151215)</code>
 
 ### 区块交易列表
 
@@ -64,11 +64,11 @@ GET /block/{xxx}/tx
 
 * 返回最新块的交易列表
 
-  <code>[https://chain.api.cloverpool.com/block/latest/tx](https://chain.api.cloverpool.com/block/latest/tx)</code>
+  <code>[ https://bch-chain.api.cloverpool.com/v3/block/latest/tx]( https://bch-chain.api.cloverpool.com/v3/block/latest/tx)</code>
   
 * 返回单个块的交易列表
 
-  <code>[https://chain.api.cloverpool.com/block/3/tx](https://chain.api.cloverpool.com/block/3/tx)</code>
+  <code>[ https://bch-chain.api.cloverpool.com/v3/block/3/tx]( https://bch-chain.api.cloverpool.com/v3/block/3/tx)</code>
 
 ## 交易
 
@@ -86,11 +86,11 @@ GET /tx/{txhash}
 
 * 获取单个交易的全部信息
 
-  <code>[https://chain.api.cloverpool.com/tx/0eab89a271380b09987bcee5258fca91f28df4dadcedf892658b9bc261050d96?verbose=3](https://chain.api.cloverpool.com/tx/0eab89a271380b09987bcee5258fca91f28df4dadcedf892658b9bc261050d96?verbose=3)</code>
+  <code>[ https://bch-chain.api.cloverpool.com/v3/tx/0eab89a271380b09987bcee5258fca91f28df4dadcedf892658b9bc261050d96?verbose=3]( https://bch-chain.api.cloverpool.com/v3/tx/0eab89a271380b09987bcee5258fca91f28df4dadcedf892658b9bc261050d96?verbose=3)</code>
 
 * 获取多个交易
 
-  <code>[https://chain.api.cloverpool.com/tx/000000000000000005cb6f6e2f09e84a353ab91756a38aa50fbaf25059f76666,0ba9252660a6a5f291a8983092074f9a1da5f6d1c790518d6550f054e60bbab1](https://chain.api.cloverpool.com/tx/000000000000000005cb6f6e2f09e84a353ab91756a38aa50fbaf25059f76666,0ba9252660a6a5f291a8983092074f9a1da5f6d1c790518d6550f054e60bbab1)</code>
+  <code>[ https://bch-chain.api.cloverpool.com/v3/tx/000000000000000005cb6f6e2f09e84a353ab91756a38aa50fbaf25059f76666,0ba9252660a6a5f291a8983092074f9a1da5f6d1c790518d6550f054e60bbab1]( https://bch-chain.api.cloverpool.com/v3/tx/000000000000000005cb6f6e2f09e84a353ab91756a38aa50fbaf25059f76666,0ba9252660a6a5f291a8983092074f9a1da5f6d1c790518d6550f054e60bbab1)</code>
 
 获取多个交易暂不开放，请联系工作人员说明使用范围。
 
@@ -104,7 +104,7 @@ GET /tx/unconfirmed
 
 #### 示例
 
-<code>[https://chain.api.cloverpool.com/tx/unconfirmed](https://chain.api.cloverpool.com/tx/unconfirmed)</code>
+<code>[ https://bch-chain.api.cloverpool.com/v3/tx/unconfirmed]( https://bch-chain.api.cloverpool.com/v3/tx/unconfirmed)</code>
   
 #### 未确认交易信息
 
@@ -116,7 +116,7 @@ GET /tx/unconfirmed/summary
 
 #### 示例
 
-<code>[https://chain.api.cloverpool.com/tx/unconfirmed/summary](https://chain.api.cloverpool.com/tx/unconfirmed/summary)</code>
+<code>[ https://bch-chain.api.cloverpool.com/v3/tx/unconfirmed/summary]( https://bch-chain.api.cloverpool.com/v3/tx/unconfirmed/summary)</code>
 
 ## 地址
 
@@ -132,11 +132,11 @@ GET /address/{address}
 
 * 获取单个地址
   
-  <code>[https://chain.api.cloverpool.com/address/15urYnyeJe3gwbGJ74wcX89Tz7ZtsFDVew](https://chain.api.cloverpool.com/address/15urYnyeJe3gwbGJ74wcX89Tz7ZtsFDVew)</code>
+  <code>[ https://bch-chain.api.cloverpool.com/v3/address/15urYnyeJe3gwbGJ74wcX89Tz7ZtsFDVew]( https://bch-chain.api.cloverpool.com/v3/address/15urYnyeJe3gwbGJ74wcX89Tz7ZtsFDVew)</code>
 
 * 获取多个地址
 
-  <code>[https://chain.api.cloverpool.com/address/15urYnyeJe3gwbGJ74wcX89Tz7ZtsFDVew,1PErRgFdo757pyyMxFiwB326vuymXC3hev](https://chain.api.cloverpool.com/address/15urYnyeJe3gwbGJ74wcX89Tz7ZtsFDVew,1PErRgFdo757pyyMxFiwB326vuymXC3hev)</code>
+  <code>[ https://bch-chain.api.cloverpool.com/v3/address/15urYnyeJe3gwbGJ74wcX89Tz7ZtsFDVew,1PErRgFdo757pyyMxFiwB326vuymXC3hev]( https://bch-chain.api.cloverpool.com/v3/address/15urYnyeJe3gwbGJ74wcX89Tz7ZtsFDVew,1PErRgFdo757pyyMxFiwB326vuymXC3hev)</code>
   
 多个地址暂不开放，请联系工作人员说明使用范围。
 
@@ -157,7 +157,7 @@ GET /address/{address}/tx
 
 #### 示例
 
-<code>[https://chain.api.cloverpool.com/address/15urYnyeJe3gwbGJ74wcX89Tz7ZtsFDVew/tx](https://chain.api.cloverpool.com/address/15urYnyeJe3gwbGJ74wcX89Tz7ZtsFDVew/tx)</code>
+<code>[ https://bch-chain.api.cloverpool.com/v3/address/15urYnyeJe3gwbGJ74wcX89Tz7ZtsFDVew/tx]( https://bch-chain.api.cloverpool.com/v3/address/15urYnyeJe3gwbGJ74wcX89Tz7ZtsFDVew/tx)</code>
 
 ### 未花费列表
 
@@ -171,7 +171,7 @@ GET /address/{address}/unspent
 
 #### 示例
 
-<code>[https://chain.api.cloverpool.com/address/15urYnyeJe3gwbGJ74wcX89Tz7ZtsFDVew/unspent](https://chain.api.cloverpool.com/address/15urYnyeJe3gwbGJ74wcX89Tz7ZtsFDVew/unspent)</code>
+<code>[ https://bch-chain.api.cloverpool.com/v3/address/15urYnyeJe3gwbGJ74wcX89Tz7ZtsFDVew/unspent]( https://bch-chain.api.cloverpool.com/v3/address/15urYnyeJe3gwbGJ74wcX89Tz7ZtsFDVew/unspent)</code>
 
 ## 工具
 

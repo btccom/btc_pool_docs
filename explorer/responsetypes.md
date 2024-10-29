@@ -67,7 +67,7 @@ Transaction {
 }
 ```
 
-Since the size of some transactions is large, the API related to the transactions supports the rating output of transaction info, such as `https://chain.api.cloverpool.com/block/latest/tx?verbose=2`.
+Since the size of some transactions is large, the API related to the transactions supports the rating output of transaction info, such as ` https://bch-chain.api.cloverpool.com/v3/block/latest/tx?verbose=2`.
 
 The `verbose` is optional and its 2 defaultly. The different output level has its own meaning:
 
