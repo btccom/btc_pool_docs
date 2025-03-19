@@ -1,6 +1,6 @@
 # CloverPool API V3
 
-Your applications can access the data of Bitcoin network via the API provided by CloverPool.
+Your applications can access the data of Bitcoin Cash and Litecoin network via the API provided by CloverPool.
 
 + Telegram: https://t.me/btccomchinese
 + Twitter: https://twitter.com/btccom_official
@@ -8,8 +8,6 @@ Your applications can access the data of Bitcoin network via the API provided by
 + Mail: support@connectbtc.com
 
 ## support coin
-+ BTC
-   https://tools.api.cloverpool.com/docs/en#overview
 + BCH
    https://bch-chain.api.cloverpool.com
 + LTC
